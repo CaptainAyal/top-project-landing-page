@@ -1,7 +1,6 @@
-/* body{
-    margin-left: 200px;
-    margin-right: 200px;
-} */
+body{
+    font-family: Roboto;
+}
 
 .top{
     display: flex;
@@ -39,11 +38,11 @@ button{
     max-width: 100px;
     background-color: blue;
     border: none;
-    border-radius: 8px
+    border-radius: 8px;
+    color: white;
 }
 
 .header{
-    font-family: Roboto;
     background-color: #1f2937;
     padding: 5px 200px 20px 200px;
 }
@@ -63,4 +62,40 @@ h2{
 .right{
     font-size: 18px;
     color: #e5e7eb;
+}
+
+/* Header above, two below */
+
+.two{
+    padding: 5px 200px 20px 200px;
+}
+
+p{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+.cardbox{
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    flex: 0 1 10px;
+}
+
+.box{
+    padding: 10px;
+    border: 2px solid blue;
+    height: 100px;  
+    border-radius: 8px; 
+}
+
+.box,
+.info{
+    width: 100px;
+}
+
+.info{
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
 }
