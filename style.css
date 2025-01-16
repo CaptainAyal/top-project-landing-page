@@ -32,7 +32,7 @@ body{
    background-color: lightgrey;
 }
 
-button{
+#butone{
     flex: 0 0 3em;
     padding: .5em;
     max-width: 100px;
@@ -70,7 +70,7 @@ h2{
     padding: 5px 200px 20px 200px;
 }
 
-p{
+#text{
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -117,4 +117,36 @@ font-style: italic;
     font-size: 24px;
     font-weight: 700;
     text-align: right;
+}
+/* Quote above, call below */
+
+.call{
+    padding: 5px 200px 20px 200px;
+}
+
+.bluebox{
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+    padding:40px ;
+    color: white;
+}
+
+#one{
+    font-size: 24px;
+    font-weight: 700; 
+    margin: 0;
+}
+#two{
+    font-size: 16px;
+    margin: 0;
+}
+#buttwo{
+    padding: 5px 30px;
+    background-color: blue;
+    border: solid white;
+    border-radius: 8px;
+    color: white;
+    
+    
 }
